@@ -221,7 +221,7 @@ header .navigation a:hover{
 .media-icon a{
     position: relative;
     color: var(--green-medium);
-    font-size: 25px;
+    font-size: 50px;
     transition-property: transform;
     transition-duration: 1s;
 }
