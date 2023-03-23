@@ -2,9 +2,10 @@
 
 /* PALETA DE CORES */
 :root {
-    --green-dark: #257338;
-    --green-medium: #479b2d;
-    --green-light: rgb(216, 255, 216);
+    --green-dark: #4F6B15;
+    --green-medium: #809732;
+    --green-light: rgb(219, 255, 191);
+    --green-light-200: A3C44F;
     --lilas: #BB82A1;
     --rosa: #E77C94;
     --branco: #fff;
