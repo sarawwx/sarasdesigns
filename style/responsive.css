@@ -1,3 +1,35 @@
+@media (max-width: 1700px){
+    /* .content .intro .info {
+        width: 30%;
+    }
+    .content .intro .perfil {
+        width: 70%;
+        align-items: center;
+    } */
+    /* .content .intro .perfil .photo-p{
+        width: 100%;
+    } */
+}
+
+@media (max-width: 1110px){
+    .content .intro {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .content .intro .info {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    .content .intro .perfil {
+        width: 90%;
+        margin-top: 40px;
+    }
+
+}
+
+
+
 @media (max-width: 960px){
     header .navigation{
         display: none;
