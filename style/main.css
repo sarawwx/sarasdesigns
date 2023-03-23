@@ -2,7 +2,7 @@
 
 /* PALETA DE CORES */
 :root {
-    --green-dark: #003c0f;
+    --green-dark: #257338;
     --green-medium: #479b2d;
     --green-light: rgb(216, 255, 216);
     --lilas: #BB82A1;
@@ -56,6 +56,7 @@ header .logo{
 header .navigation a{
     color: var(--preto);
     text-decoration: none;
+    font-size: 1.4rem;
     font-weight: 500;
     letter-spacing: 1px;
     padding: 2px 15px;
@@ -78,6 +79,7 @@ header .navigation a:hover{
 .content .intro {
     display: flex;
     align-items: center;
+    margin-bottom: 80px;
 }
 .content .intro .info {
     width: 60%;
@@ -87,14 +89,14 @@ header .navigation a:hover{
 }
 .content .intro .info h2{
     color: var(--green-dark);
-    font-size: 55px;
-    font-weight: 800;
+    font-size: 5rem;
+    font-weight: 500;
     letter-spacing: 4px;
     line-height: 60px;
     margin-bottom: 30px;
 }
 .content .intro .info p{
-    font-size: 16px;
+    font-size: 1.3rem;
     font-weight: 500;
     margin-bottom: 40px;
 }
@@ -133,21 +135,60 @@ header .navigation a:hover{
 
 
  /* PROJETOS */
-.projetos {
-    margin-top: 300px;
-}
+
+/* .projetos {
+    text-align: center;
+} */
 .title-projetos {
     font-size: 5rem;
-    text-align: center;
+    /* text-align: center; */
+    letter-spacing: 3px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: var(--green-dark);
 }
 
-.projetos .cardP {
-    width: 90%;
-
+.card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 70px;
+    border: 3px dotted var(--green-medium);
+    border-radius: 5%;
+    padding: 25px;
 }
 
+.title-card,.descricao-card{
+    text-align: right;
+}
+
+.title-card {
+    font-size: 5rem;
+    font-weight: 500;
+    color: var(--green-medium);
+}
+.descricao-card{
+    font-size: 1.6rem;
+}
+.cardP {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
 .img-cardP {
-    width: 50%;
+    width: 40%;
+}
+.cardP-soda {
+    display: flex;
+    width: 100%;
+    padding: 30px;
+    justify-content: space-between;
+}
+.img-cardP-soda-1 {
+    width: 40%;
+}
+.img-cardP-soda-2 {
+    width: 60%;
 }
 
 
@@ -161,6 +202,7 @@ header .navigation a:hover{
     justify-content: center;
     align-items: center;
     margin: auto;
+    padding: 80px;
 }
 .media-icon a{
     position: relative;
