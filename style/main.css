@@ -34,7 +34,7 @@ section{
     background-position: center; */
 }
 
-
+/* HEADER */
 header{
     position: relative;
     top: 0;
@@ -44,17 +44,15 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-
 header .logo{
     position: relative;
-    color: var(--preto);
+    color: var(--green-medium);
     font-size: 30px;
     text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 800;
-    letter-spacing: 1px;
+    /* text-transform: uppercase; */
+    font-weight: 100;
+    letter-spacing: 2px;
 }
-
 header .navigation a{
     color: var(--preto);
     text-decoration: none;
@@ -69,22 +67,20 @@ header .navigation a:not(:last-child){
     margin-right: 30px;
 }
 header .navigation a:hover{
-    background: var(--branco);
+    background: var(--green-medium);
 }
 
 /* INTRODUÇÃO */
 .content{
     /* max-width: 650px; */
-    width: 100%;
+    width: 90%;
     margin: 60px 100px;
-    
 }
 
 .content .intro {
     display: flex;
     flex-direction: row;
 }
-
 .content .intro .info {
     width: 50%;
 }
@@ -132,7 +128,7 @@ header .navigation a:hover{
     flex-direction: column;
     flex-wrap: wrap;
 }
-.content .intro .photo-p {
+.content .intro .perfil .photo-p {
     /* height: 100%; */
     width: 40%;
     /* max-width: 100%; */
