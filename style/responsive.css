@@ -43,7 +43,8 @@
         transition-property: color;
     }
     label:hover{
-        color: #fff;
+        color: #257338;
+        font-size: 40px;
     }
     label .close-btn{
         display: none;
@@ -52,7 +53,7 @@
     #check:checked ~ header .navigation{
         z-index: 2;
         position: fixed;
-        background: rgba(187, 130, 161, 0.9);
+        background: rgba(163, 249, 168, 0.9);
         top: 0;
         bottom: 0;
         left: 0;
@@ -63,10 +64,12 @@
         align-items: center;
     }
     #check:checked ~ header .navigation a{
-        font-weight: 700;
+        font-weight: 500;
+        font-size: 3rem;
         margin-right: 0;
         margin-bottom: 50px;
-        letter-spacing: 2px;
+        letter-spacing: 4px;
+        color: #479b2d;
     }
     #check:checked ~ header label .menu-btn{
         display: none;

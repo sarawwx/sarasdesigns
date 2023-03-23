@@ -181,14 +181,18 @@ header .navigation a:hover{
 .cardP-soda {
     display: flex;
     width: 100%;
-    padding: 30px;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
 .img-cardP-soda-1 {
     width: 40%;
+    margin-left: 30px;
+    padding: 20px;
 }
 .img-cardP-soda-2 {
     width: 60%;
+    margin-left: 10px;
+    padding: 10px;
 }
 
 
