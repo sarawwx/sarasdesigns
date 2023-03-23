@@ -72,14 +72,12 @@ header .navigation a:hover{
 
 /* INTRODUÇÃO */
 .content{
-    /* max-width: 650px; */
-    width: 90%;
-    margin: 60px 100px;
+    margin: 80px 100px;
 }
 
 .content .intro {
     display: flex;
-    flex-direction: row;
+    align-items: center;
 }
 .content .intro .info {
     width: 50%;
@@ -87,23 +85,17 @@ header .navigation a:hover{
 .content .intro .info h2{
     color: var(--green-dark);
     font-size: 55px;
-    text-transform: uppercase;
     font-weight: 800;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     line-height: 60px;
     margin-bottom: 30px;
 }
-/* .content .info h2 span{
-    color: var(--green-medium);
-    font-size: 50px;
-    font-weight: 600;
-} */
 .content .intro .info p{
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 40px;
 }
-/* .content .info-btn{
+.content .info-btn{
     color: var(--branco);
     background: var(--green-dark);
     text-decoration: none;
@@ -116,11 +108,11 @@ header .navigation a:hover{
     transition-property: background;
 }
 .content .info-btn:hover{
-    background: var(--rosa);
-} */
+    background: var(--green-medium);
+}
 
 .content .intro .perfil {
-    width: 60%;
+    width: 50%;
     margin-left: 20px;
     padding: 30px;
     display: flex;
@@ -130,28 +122,48 @@ header .navigation a:hover{
 }
 .content .intro .perfil .photo-p {
     /* height: 100%; */
-    width: 40%;
-    /* max-width: 100%; */
+    width: 50%;
     border-radius: 50%;
     margin: 0;
+}
+
+
+ /* PROJETOS */
+.projetos {
+    margin-top: 300px;
+}
+.title-projetos {
+    font-size: 5rem;
+    text-align: center;
+}
+
+.projetos .cardP {
+    width: 90%;
+
+}
+
+.img-cardP {
+    width: 50%;
 }
 
 
 
 
 
+
+/* icones redes sociais */
 .media-icon{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
 }
-
 .media-icon a{
     position: relative;
-    color: var(--preto);
+    color: var(--green-medium);
     font-size: 25px;
     transition-property: transform;
+    transition-duration: 1s;
 }
 .media-icon a:not(:last-child){
     margin-right: 60px;
@@ -161,10 +173,10 @@ header .navigation a:hover{
 
 }
 
+/* menu reponsivo */
 label{
     display: none;
 }
-
 #check{
     z-index: 3;
     display: none;
