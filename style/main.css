@@ -136,24 +136,27 @@ header .navigation a:hover{
 
  /* PROJETOS */
 
-/* .projetos {
-    text-align: center;
-} */
+.projetos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
 .title-projetos {
     font-size: 5rem;
-    /* text-align: center; */
     letter-spacing: 3px;
     font-weight: 400;
     margin-bottom: 30px;
-    color: var(--green-dark);
+    color: var(--preto);
+    position: left;
 }
 
 .card {
-    width: 100%;
+    width: 45%;
     display: flex;
     flex-direction: column;
     margin-bottom: 70px;
-    border: 3px dotted var(--green-medium);
+    border: 3px dotted var(--green-dark);
     border-radius: 5%;
     padding: 25px;
 }
@@ -161,7 +164,6 @@ header .navigation a:hover{
 .title-card,.descricao-card{
     text-align: right;
 }
-
 .title-card {
     font-size: 5rem;
     font-weight: 500;
@@ -170,17 +172,25 @@ header .navigation a:hover{
 .descricao-card{
     font-size: 1.6rem;
 }
-.cardP {
+
+/* coffee */
+.cardP-coffee {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
 }
-.img-cardP {
-    width: 40%;
+.img-cardP-coffee-1 {
+    width: 60%;
 }
+.img-cardP-coffee-2 {
+    width: 50%;
+    margin-top: 70px;
+}
+/* soda */
 .cardP-soda {
-    display: flex;
     width: 100%;
+    display: flex;
     justify-content: space-around;
     align-items: center;
 }
