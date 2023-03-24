@@ -107,9 +107,8 @@
         bottom: -6px;
     }
 
-
     .content {
-        margin: 60px 20px 0;
+        margin: 60px 30px 0;
     }
     .content .info h2{
         line-height: 50px;
@@ -138,8 +137,12 @@
     .descricao-card{
         font-size: 1.2rem;
     }
-
+    .media-icon{
+        text-align: center;
+        /* margin: 10px; */
+        padding: 15px;
+    }
     .media-icon a{
-        font-size: 40px;
+        font-size: 30px;
     }
 }

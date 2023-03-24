@@ -95,6 +95,13 @@ header .navigation a:hover{
     width: 70px;
 }
 
+.content .intro .info h3{
+    font-size: 2rem;
+}
+.content .intro .info span{
+    margin-top: 15px;
+    font-style: italic;
+}
 .content .intro .info p{
     font-size: 1.5rem;
     font-weight: 500;
@@ -222,8 +229,7 @@ header .navigation a:hover{
 /* gifs cards */
 .gifs {
     width: 100%;
-    
-    margin-top: 80px;
+    margin: 60px 0 40px;
 }
 .img-gif {
     display: flex;
