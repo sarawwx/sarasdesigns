@@ -26,7 +26,7 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background-color: var(--green-light);
+    background-color: var(--branco);
 }
 
 /* HEADER */
@@ -76,6 +76,7 @@ header .navigation a:hover{
     display: flex;
     align-items: center;
     margin-bottom: 80px;
+    line-height: 1.4;
 }
 .content .intro .info {
     width: 60%;
@@ -155,7 +156,7 @@ header .navigation a:hover{
     font-weight: 400;
     letter-spacing: 3px;
     line-height: 1;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     position: left;
     color: var(--green-medium);
 }
@@ -169,7 +170,7 @@ header .navigation a:hover{
     border-radius: 5%;
     padding: 25px;
 
-    background-color: #0000002a;
+    background-color: #00000015;
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 
     transition-property: transform;
