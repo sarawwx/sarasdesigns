@@ -113,30 +113,30 @@
     }
 
     .content .info h2{
-        font-size: 45px;
+        /* font-size: 45px; */
         line-height: 50px;
-    }
-    .content .info h2 span{
-        font-size: 40px;
-        font-weight: 600;
-    }
-    .content .info p{
-        font-size: 14px;
     }
 }
 
 @media (max-width: 560px) {
-    .content .info h2{
-        font-size: 35px;
-        line-height: 40px;
-    }
+    /* .media-icon{
+        width: 100%;
+    } */
 
-    .content .info h2 span{
-        font-size: 30px;
-        font-weight: 600;
+    .title-projetos{
+        font-size: 4rem;
+        margin-bottom: 25px;
     }
-
-    .content .info p{
-        font-size: 14px;
+    .card {
+        margin-bottom: 20px;
+    }
+    .title-card{
+        font-size: 3rem;
+    }
+    .descricao-card{
+        font-size: 1.2rem;
+    }
+    .media-icon a{
+        font-size: 40px;
     }
 }
