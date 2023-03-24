@@ -114,6 +114,14 @@
     .content .info h2{
         line-height: 50px;
     }
+
+    .img-gif{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .gif {
+        width: 100%;
+    }
 }
 
 @media (max-width: 560px) {
@@ -129,15 +137,6 @@
     }
     .descricao-card{
         font-size: 1.2rem;
-    }
-    
-
-    .img-gif{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .gif {
-        width: 100%;
     }
 
     .media-icon a{
