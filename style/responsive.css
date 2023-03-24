@@ -128,7 +128,7 @@
         margin-bottom: 25px;
     }
     .card {
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
     .title-card{
         font-size: 3rem;
@@ -136,6 +136,16 @@
     .descricao-card{
         font-size: 1.2rem;
     }
+    
+
+    .img-gif{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .gif {
+        width: 100%;
+    }
+
     .media-icon a{
         font-size: 40px;
     }

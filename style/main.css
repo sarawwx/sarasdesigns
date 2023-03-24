@@ -222,15 +222,17 @@ header .navigation a:hover{
 }
 
 /* gifs cards */
-.gif {
+.gifs {
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    
     margin-top: 80px;
 }
 .img-gif {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gif{
     width: 40%;
 }
 
@@ -245,7 +247,7 @@ header .navigation a:hover{
     justify-content: center;
     align-items: center;
     margin: auto;
-    padding: 80px;
+    padding: 70px;
 }
 .media-icon a{
     position: relative;
