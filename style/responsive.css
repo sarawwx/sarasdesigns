@@ -56,7 +56,7 @@
 
     label{
         display: block;
-        font-size: 25px;
+        font-size: 30px;
         cursor: pointer;
         transition: 0.3s;
         transition-property: color;
@@ -98,7 +98,6 @@
         display: block;
         position: fixed;
     }
-
     label .menu-btn{
         /* position: relative; */
         color: #4F6B15;
@@ -108,21 +107,16 @@
         bottom: -6px;
     }
 
+
     .content {
         margin: 60px 20px 0;
     }
-
     .content .info h2{
-        /* font-size: 45px; */
         line-height: 50px;
     }
 }
 
 @media (max-width: 560px) {
-    /* .media-icon{
-        width: 100%;
-    } */
-
     .title-projetos{
         font-size: 4rem;
         margin-bottom: 25px;

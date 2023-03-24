@@ -6,12 +6,9 @@
     --green-medium: #809732;
     --green-light: rgb(209, 255, 174);
     --green-light-200: #A3C44F;
-    --lilas: #BB82A1;
-    --rosa: #E77C94;
+
     --branco: #fff;
     --preto: #000;
-    --rose: #F8B7A0;
-    --verde: #7A7F58;
 }
 
 /* BASE */
@@ -30,9 +27,6 @@ section{
     flex-direction: column;
     justify-content: flex-start;
     background-color: var(--green-light);
-    /* background: url(/img/bg.png) no-repeat;
-    background-size: cover;
-    background-position: center; */
 }
 
 /* HEADER */
@@ -50,15 +44,17 @@ header .logo{
     color: var(--green-medium);
     font-size: 30px;
     text-decoration: none;
-    font-weight: 100;
+    font-weight: 400;
     letter-spacing: 2px;
+    opacity: 0.6;
+
 }
 header .navigation a{
     color: var(--preto);
     text-decoration: none;
     font-size: 1.4rem;
     font-weight: 500;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
     padding: 5px 15px;
     border-radius: 20px;
     transition: 0.3s;
@@ -68,7 +64,7 @@ header .navigation a:not(:last-child){
     margin-right: 30px;
 }
 header .navigation a:hover{
-    background: var(--green-medium);
+    background: var(--green-light-200);
 }
 
 /* INTRODUÇÃO */
@@ -105,17 +101,18 @@ header .navigation a:hover{
     margin-bottom: 30px;
 }
 .content .info-btn{
-    color: var(--branco);
-    background: var(--green-dark);
+    font-weight: 500;
+    width: fit-content;
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: 500;
     letter-spacing: 2px;
     padding: 10px 20px;
     border-radius: 5px;
-    transition: 0.3s;
-    width: fit-content;
+    color: var(--branco);
+    background: var(--green-dark);
+    
     transition-property: background;
+    transition: 0.3s;
 }
 .content .info-btn:hover{
     background: var(--green-medium);
@@ -187,6 +184,7 @@ header .navigation a:hover{
 }
 .descricao-card{
     font-size: 1.6rem;
+    margin-bottom: 15px;
 }
 
 /* coffee */
@@ -233,7 +231,7 @@ header .navigation a:hover{
     justify-content: center;
 }
 .gif{
-    width: 40%;
+    width: 50%;
 }
 
 
