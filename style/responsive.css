@@ -113,6 +113,9 @@
     .content .info h2{
         line-height: 50px;
     }
+    .content .intro .info-btn{
+        font-size: 0.9rem;
+    }
 
     .img-gif{
         display: flex;
@@ -125,14 +128,14 @@
 
 @media (max-width: 560px) {
     .title-projetos{
-        font-size: 4rem;
+        font-size: 3.5rem;
         margin-bottom: 25px;
     }
     .card {
         margin-bottom: 30px;
     }
     .title-card{
-        font-size: 3rem;
+        font-size: 2.8rem;
     }
     .descricao-card{
         font-size: 1.2rem;
