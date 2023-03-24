@@ -245,7 +245,7 @@ header .navigation a:hover{
     justify-content: center;
     align-items: center;
     margin: auto;
-    padding: 70px;
+    padding: 70px 70px 10px;
 }
 .media-icon a{
     position: relative;
@@ -259,6 +259,10 @@ header .navigation a:hover{
 }
 .media-icon a:hover{
     transform: scale(1.5);
+}
+.email{
+    text-align: center;
+    margin: 0  0 20px 0;
 }
 
 /* menu reponsivo */
