@@ -4,8 +4,8 @@
 :root {
     --green-dark: #4F6B15;
     --green-medium: #809732;
-    --green-light: rgb(219, 255, 191);
-    --green-light-200: A3C44F;
+    --green-light: rgb(209, 255, 174);
+    --green-light-200: #A3C44F;
     --lilas: #BB82A1;
     --rosa: #E77C94;
     --branco: #fff;
@@ -50,7 +50,6 @@ header .logo{
     color: var(--green-medium);
     font-size: 30px;
     text-decoration: none;
-    /* text-transform: uppercase; */
     font-weight: 100;
     letter-spacing: 2px;
 }
@@ -60,7 +59,7 @@ header .navigation a{
     font-size: 1.4rem;
     font-weight: 500;
     letter-spacing: 1px;
-    padding: 2px 15px;
+    padding: 5px 15px;
     border-radius: 20px;
     transition: 0.3s;
     transition-property: background;
@@ -148,7 +147,7 @@ header .navigation a:hover{
     letter-spacing: 3px;
     font-weight: 400;
     margin-bottom: 30px;
-    color: var(--preto);
+    color: var(--green-medium);
     position: left;
 }
 
@@ -168,7 +167,7 @@ header .navigation a:hover{
 .title-card {
     font-size: 5rem;
     font-weight: 500;
-    color: var(--green-medium);
+    color: var(--preto);
 }
 .descricao-card{
     font-size: 1.6rem;
@@ -207,6 +206,18 @@ header .navigation a:hover{
 }
 
 
+/* gifs cards */
+.gif {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.img-gif {
+    width: 40%;
+}
+
 
 
 
@@ -221,7 +232,7 @@ header .navigation a:hover{
 }
 .media-icon a{
     position: relative;
-    color: var(--green-medium);
+    color: var(--green-dark);
     font-size: 50px;
     transition-property: transform;
     transition-duration: 1s;
