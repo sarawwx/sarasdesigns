@@ -105,7 +105,7 @@ header .navigation a:hover{
     background: var(--green-dark);
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 500;
     letter-spacing: 2px;
     padding: 10px 20px;
     border-radius: 5px;
@@ -148,7 +148,7 @@ header .navigation a:hover{
     font-weight: 400;
     letter-spacing: 3px;
     line-height: 1;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     position: left;
     color: var(--green-medium);
 }
