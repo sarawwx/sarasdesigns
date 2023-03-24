@@ -92,13 +92,13 @@ header .navigation a:hover{
     font-size: 5rem;
     font-weight: 500;
     letter-spacing: 4px;
-    line-height: 60px;
+    line-height: 1;
     margin-bottom: 30px;
 }
 .content .intro .info p{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 500;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 .content .info-btn{
     color: var(--branco);
@@ -131,6 +131,7 @@ header .navigation a:hover{
     width: 100%;
     border-radius: 50%;
     margin: 0;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 
@@ -144,11 +145,12 @@ header .navigation a:hover{
 }
 .title-projetos {
     font-size: 5rem;
-    letter-spacing: 3px;
     font-weight: 400;
+    letter-spacing: 3px;
+    line-height: 1;
     margin-bottom: 40px;
-    color: var(--green-medium);
     position: left;
+    color: var(--green-medium);
 }
 
 .card {
@@ -178,6 +180,7 @@ header .navigation a:hover{
     font-size: 5rem;
     font-weight: 500;
     color: var(--preto);
+    line-height: 1;
 }
 .descricao-card{
     font-size: 1.6rem;
@@ -222,6 +225,7 @@ header .navigation a:hover{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    margin-top: 80px;
 }
 .img-gif {
     width: 40%;
