@@ -60,6 +60,7 @@
         cursor: pointer;
         transition: 0.3s;
         transition-property: color;
+        margin-right: 20px;
     }
     label:hover{
         color: #4F6B15;
