@@ -136,17 +136,17 @@
 
 @media (max-width: 560px) {
     .title-projetos{
-        font-size: 3.5rem;
+        font-size: 3rem;
         margin-bottom: 25px;
     }
     .card {
         margin-bottom: 30px;
     }
     .title-card{
-        font-size: 2.8rem;
+        font-size: 2rem;
     }
     .descricao-card{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     .media-icon{
         text-align: center;
