@@ -25,8 +25,8 @@ body {
     /* margin: 0px 2em; */
     background-color: var(--green-light);
 }
-/*///////////////////////////////////////*/
 
+/*///////////////////////////////////////*/
 input {
     display: none;
 }
@@ -42,13 +42,13 @@ label:hover{
 .tag {
     font-size: 20px;
     margin: 1.5em 3px;
-    padding: 5px 25px;
+    padding: 5px 15px;
     /* width: fit-content; */
 
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
-    border-radius: 50px;
+    border-radius: 60px;
 
     background: var(--bege);
     color: var(--green-dark);
@@ -63,7 +63,7 @@ img {
 }
 
 
-/*filtro CSS */
+/* FILTRO CSS */
 #ilustra:checked~.images>img:not([class*='ilustra']),
 #iv:checked~.images>img:not([class*='iv']),
 #poster:checked~.images>img:not([class*='poster']) {
