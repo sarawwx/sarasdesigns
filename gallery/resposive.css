@@ -1,6 +1,6 @@
 @media (max-width: 600px){
     body{
-        margin: 0px 12px;
+        margin: 15px 12px;
     }
 
     .galeria{
@@ -28,7 +28,7 @@
     }
     img{
         margin: 1px;
-        width: 30%;
+        width: 45%;
         height: 50%;
     }
 
