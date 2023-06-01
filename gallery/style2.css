@@ -1,3 +1,4 @@
+/* BASE */
 * {
     padding: 0;
     margin: 0;
@@ -9,35 +10,33 @@ body {
     font-family: arial;
     background-color: #d9f4b8;
 }
-
-
-.filter {
-    background-color: bisque;
-}
+/*///////////////////////////////////////*/
 
 input {
     display: none;
 }
-
-
+label{
+    transition: 1s;
+    transition-property: background;
+}
+label:hover{
+    background-color: #659800;
+    color: rgb(253, 248, 238);
+}
 
 .tag {
     font-size: 20px;
-    margin: 1.5em 0px;
+    margin: 1.5em 3px;
     padding: 5px 25px;
-    width: fit-content;
+    /* width: fit-content; */
 
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
     border-radius: 50px;
-    background: #ffffff;
-    color: #4F6B15;
-    /* border: 1px solid #ccc; */
 
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; */
+    background: rgb(253, 248, 238);
+    color: #4F6B15;
 }
 
 img {
@@ -48,8 +47,8 @@ img {
     transition: all .4s ease-in-out;
 }
 
-/*filter CSS */
 
+/*filtro CSS */
 #ilustra:checked~.images>img:not([class*='ilustra']),
 #iv:checked~.images>img:not([class*='iv']),
 #poster:checked~.images>img:not([class*='poster']) {
