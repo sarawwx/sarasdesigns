@@ -1,14 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* PALETA DE CORES */
+:root {
+    --green-dark: #4F6B15;
+    --green-medium: #809732;
+    --green-light: rgb(209, 255, 174);
+    --green-light-200: #A3C44F;
+    --bege: rgb(253, 248, 238);
+
+    --branco: #fff;
+    --preto: #000;
+}
+
 /* BASE */
-* {
-    padding: 0;
+*{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 body {
     text-align: center;
     /* margin: 0px 2em; */
-    font-family: arial;
-    background-color: #d9f4b8;
+    background-color: var(--green-light);
 }
 /*///////////////////////////////////////*/
 
@@ -20,8 +35,8 @@ label{
     transition-property: background;
 }
 label:hover{
-    background-color: #659800;
-    color: rgb(253, 248, 238);
+    background-color: var(--green-medium);
+    color: var(--bege);
 }
 
 .tag {
@@ -35,8 +50,8 @@ label:hover{
     cursor: pointer;
     border-radius: 50px;
 
-    background: rgb(253, 248, 238);
-    color: #4F6B15;
+    background: var(--bege);
+    color: var(--green-dark);
 }
 
 img {
@@ -60,6 +75,6 @@ img {
 #ilustra:checked~.tag1,
 #iv:checked~.tag2,
 #poster:checked~.tag3 {
-    background-color: #4F6B15;
-    color: white;
+    background-color: var(--green-dark);
+    color: var(--bege);
 }
