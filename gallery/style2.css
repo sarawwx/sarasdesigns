@@ -5,26 +5,39 @@
 
 body {
     text-align: center;
-    margin: 0px 2em;
+    /* margin: 0px 2em; */
     font-family: arial;
     background-color: #d9f4b8;
+}
+
+
+.filter {
+    background-color: bisque;
 }
 
 input {
     display: none;
 }
 
+
+
 .tag {
     font-size: 20px;
     margin: 1.5em 0px;
     padding: 5px 25px;
-    border-radius: 50px;
+    width: fit-content;
+
+    text-decoration: none;
     display: inline-block;
     cursor: pointer;
-    background: #d0ffe7;
-    text-decoration: none;
-    color: black;
-    border: 1px solid #ccc;
+    border-radius: 50px;
+    background: #ffffff;
+    color: #4F6B15;
+    /* border: 1px solid #ccc; */
+
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
 }
 
 img {
@@ -48,6 +61,6 @@ img {
 #ilustra:checked~.tag1,
 #iv:checked~.tag2,
 #poster:checked~.tag3 {
-    background-color: #333333;
+    background-color: #4F6B15;
     color: white;
 }
