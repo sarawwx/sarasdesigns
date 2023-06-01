@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    margin: 0px 2em;
+    font-family: arial;
+}
+
+input {
+    display: none;
+}
+
+.tag {
+    font-size: 20px;
+    margin: 1.5em 0px;
+    padding: 5px 25px;
+    border-radius: 50px;
+    display: inline-block;
+    cursor: pointer;
+    background: #d0ffe7;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #ccc;
+}
+
+img {
+    /* max-width: 300px; */
+    /* width: 300px; */
+    width:fit-content;
+    height: 300px;
+    transition: all .4s ease-in-out;
+}
+
+/*filter CSS */
+
+#ilustra:checked~.images>img:not([class*='ilustra']),
+#iv:checked~.images>img:not([class*='iv']),
+#poster:checked~.images>img:not([class*='poster']) {
+    width: 0px;
+    height: 0px;
+}
+
+#all:checked~.all,
+#ilustra:checked~.tag1,
+#iv:checked~.tag2,
+#poster:checked~.tag3 {
+    background-color: #333333;
+    color: white;
+}
