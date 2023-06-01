@@ -2,15 +2,27 @@
     body{
         margin: 0px 30px;
     }
+
     .galeria{
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
+
     .tag{
-        font-size: 15px;
-        /* width: fit-content; */
-        margin: 10px 5px;
+        font-size: 10px;
+        width: fit-content;
+        margin: 15px 2px;
         /* padding: 5px 15px; */
     }
+
+    .images{
+        width: fit-content;
+    }
+    img{
+        height: 200px;
+    }
+
 }
