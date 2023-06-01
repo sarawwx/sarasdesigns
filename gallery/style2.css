@@ -1,7 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     text-align: center;
     margin: 0px 2em;
     font-family: arial;
+    background-color: #d9f4b8;
 }
 
 input {
