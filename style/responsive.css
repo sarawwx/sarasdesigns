@@ -43,6 +43,13 @@
         width: 45%;
         margin-top: 70px;
     }
+
+    /* .tabela {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+    } */
 }
 
 @media (max-width: 960px){

@@ -70,7 +70,6 @@ header .navigation a:hover{
 .content{
     margin: 80px 100px;
 }
-
 .content .intro {
     display: flex;
     align-items: center;
@@ -85,7 +84,7 @@ header .navigation a:hover{
 }
 .content .intro .info h2{
     color: var(--green-dark);
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 500;
     letter-spacing: 4px;
     line-height: 1;
@@ -144,8 +143,11 @@ header .navigation a:hover{
     margin: 0;
     box-shadow: rgba(0, 0, 0, 0.17) 0px -10px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
+
+/* TABELA HABILIDADES */
 .tabela{
-    margin-bottom: 50px;
+    margin: 80px 0px;
+    text-align: center;
 }
 
 .tabela h3 {
@@ -153,12 +155,18 @@ header .navigation a:hover{
     font-weight: 500;
     color: var(--green-dark);
 }
-
-.tabela table th, td {
+.tabela p{
     font-size: 1.5rem;
-    padding: 10px 20px;
+    opacity: .8;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
 }
-
+.tabela span{
+    padding: 5px 10px;
+    margin: 5px;
+}
 
 
  /* PROJETOS */
@@ -169,7 +177,7 @@ header .navigation a:hover{
     justify-content: space-around;
 }
 .title-projetos {
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 400;
     letter-spacing: 3px;
     line-height: 1;
@@ -197,11 +205,11 @@ header .navigation a:hover{
     transform: scale(1.1);
 } */
 
-.title-card,.descricao-card{
+.title-card, .descricao-card{
     text-align: right;
 }
 .title-card {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 500;
     color: var(--preto);
     line-height: 1;
@@ -244,9 +252,10 @@ header .navigation a:hover{
     padding: 10px;
 }
 
+
 /* gifs cards */
 .title-recentes{
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 400;
     letter-spacing: 3px;
     line-height: 1;
@@ -269,6 +278,7 @@ header .navigation a:hover{
 }
 
 
+ /* BOTÃO DE MAIS  */
 .more-btn{
     font-size: 40px;
     font-weight: 500;
@@ -288,8 +298,6 @@ header .navigation a:hover{
 .more-btn:hover{
     background: var(--green-light-200);
 }
-
-
 
 
 /* icones redes sociais */
