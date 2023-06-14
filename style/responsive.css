@@ -1,6 +1,6 @@
 @media (max-width: 1260px){
     .content .intro .perfil{
-        margin: 30px 0 0 0;
+        margin: 1px 0 0 0;
         padding: 0;
     }
     .projetos {
@@ -21,6 +21,7 @@
     .content .intro {
         flex-wrap: wrap;
         justify-content: center;
+        margin-bottom: 40px;
     }
     .content .intro .info {
         width: 100%;
@@ -32,7 +33,7 @@
     }
     .content .intro .perfil {
         width: 90%;
-        margin-top: 40px;
+        /* margin-top: 40px; */
     }
 
     .img-cardP-coffee-1 {
